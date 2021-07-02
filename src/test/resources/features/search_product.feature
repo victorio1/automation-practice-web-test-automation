@@ -2,7 +2,7 @@ Feature: Busqueda de Productos
 
   Esta caracteristica permite a los clientes realizar
   busquedas de productos que desean comprar en la
-  tienda virtual.
+  tienda virtual Eduardo.
   Se presenta informacion como precio, stock, valores
 
   Scenario: Busqueda exitosa de un producto
