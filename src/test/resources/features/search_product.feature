@@ -12,4 +12,4 @@ Feature: Busqueda de Productos
     Given El cliente se encuentra en la pagina de busqueda
     When realiza la busqueda de productos con el termino "blouse"
     And cambia la visualizacion de resultados a modo lista
-    Then se muestra el producto con el precio "$50.00"
+    Then se muestra el producto con el precio "$27.00"

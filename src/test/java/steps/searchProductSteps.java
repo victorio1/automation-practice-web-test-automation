@@ -22,7 +22,7 @@ public class searchProductSteps {
 
     @Before
     public void setUp() throws MalformedURLException{
-
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Victorio\\Desktop\\chocolate\\automation-practice-web-test-automation\\src\\test\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
 
     }
