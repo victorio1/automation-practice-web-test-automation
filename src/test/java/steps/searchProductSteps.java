@@ -22,9 +22,8 @@ public class searchProductSteps {
 
     @Before
     public void setUp() throws MalformedURLException{
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Victorio\\Desktop\\chocolate\\automation-practice-web-test-automation\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Eduardo\\Documents\\ChromeDriver\\chromedriver.exe");
         driver = new ChromeDriver();
-
     }
 
     @Given("^El cliente se encuentra en la pagina de busqueda$")
